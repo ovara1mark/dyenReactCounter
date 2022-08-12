@@ -1,15 +1,8 @@
-import { Counter } from './components/Counter';
-import { Practice } from './components/Practice';
+import React from "react";
+import { HomePage } from "./components";
 
-
-
-function App() {
-  return (
-   <>
-   <Counter />
-   <Practice />
-   </>
-  );
-}
+const App = () => {
+  return <HomePage />;
+};
 
 export default App;
